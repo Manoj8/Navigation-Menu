@@ -1,0 +1,47 @@
+[
+  {
+    "menuNumber": 1,
+    "name": "Tutorials",
+    "hasSubMenu": true,
+    "showMenu": false,
+    "subMenu": [
+      {
+        "name": "Javascript"
+      },
+      {
+        "name": "Data Science"
+      },
+      {
+        "name": "AI"
+      },
+      {
+        "name": "React.js"
+      }
+    ]
+  },
+  {
+    "menuNumber": 2,
+    "name": "Alerts",
+    "hasSubMenu": true,
+    "showMenu": false,
+    "subMenu": [
+      {
+        "name": "Mails"
+      },
+      {
+        "name": "Notifications"
+      }
+    ]
+  },
+  {
+    "menuNumber": 3,
+    "name": "About",
+    "hasSubMenu": true,
+    "showMenu": false,
+    "subMenu": [
+      {
+        "name": "Contact"
+      }
+    ]
+  }
+]

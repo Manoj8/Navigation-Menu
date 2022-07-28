@@ -1,0 +1,102 @@
+.category-form {
+  display: flex;
+  align-items: center;
+}
+
+.form {
+  width: 100%;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.input-field {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.add-button {
+  margin: 50px 15px 0px;
+  width: 300px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  color: white;
+  background: black;
+  font-size: 18px;
+  width: 100%;
+  height: 60px;
+}
+
+li {
+  padding: 18px;
+  font-size: 18px;
+  width: max-content;
+}
+
+li:hover {
+  background-color: #04aa6d;
+  color: black;
+  cursor: pointer;
+}
+
+.active-class {
+  background-color: #04aa6d !important;
+}
+
+.menu-list {
+  position: relative;
+}
+
+.nav-icon {
+  position: relative;
+  left: 3px;
+  top: 3px;
+}
+
+.sub-menu {
+  position: fixed;
+  top: 60px;
+  text-align: center;
+  background-color: #f1f1f1;
+  color: black;
+  min-width: 100px;
+}
+
+.sub-menu-name {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 0px;
+}
+
+.sub-menu-name:hover {
+  background-color: beige;
+}
+
+.delete-menu {
+  color: red;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .category-form {
+    flex-wrap: wrap;
+  }
+
+  .form {
+    width: 100%;
+    margin: 10px;
+    font-size: 18px;
+  }
+}
